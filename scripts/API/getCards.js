@@ -1,11 +1,11 @@
-import {URL_USER_INFO, AUTHORIZATION_TOKEN} from "../constants/constants.js"
+//import {URL_USER_INFO, AUTHORIZATION_TOKEN} from "../constants/constants.js"
 
 const getCards = async () => {
   try {
-    const data = (await fetch(URL_USER_INFO, {
+    const data = (await fetch("https://ajax.test-danit.com/api/v2/cards", {
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${AUTHORIZATION_TOKEN}`,
+        'Authorization': `Bearer ${"6905f287-0231-463f-9520-1e50f37ba227"}`,
       }
     })).json();
 
