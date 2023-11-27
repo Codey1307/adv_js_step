@@ -8,6 +8,7 @@
     justify-content: start;
     align-items: start;
     flex-direction: column;
+    position: relative;
 }
 
 .cardInfo{
@@ -23,4 +24,27 @@ margin: 4px;
     margin-top: 15px;
 }
 
+#deleteBtn{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    align-self: self-end;
+    cursor: pointer;
+}
+
+.read_more_btn{
+    padding: 5px 5px;
+    background-color: #63AEFF;
+    color: white;
+    border: 1px solid #63AEFF;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px 0;
+    cursor: pointer;
+    align-self: center;
+}
+
+.card_hidden{
+    display: none;
+}
 

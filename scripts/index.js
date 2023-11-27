@@ -23,9 +23,7 @@ import filterCards from "./FilterCards/filterCards.js";
 import {renderCards} from "./CreateCard/createCards.js";
 import {filterUrgency} from "./FilterCards/filterCards.js";
 import {deleteCard} from "./deleteCard/deleteCard.js";
-
-
-
+import { readMore } from "./readMoreCards/readMoreCards.js";
 
 
 
@@ -75,7 +73,7 @@ btnVisit.addEventListener("click", function (event) {
     )
 })
 
-
+readMore()
 
 
 
