@@ -73,7 +73,6 @@ btnVisit.addEventListener("click", function (event) {
     )
 })
 
-readMore()
 
 
 
