@@ -46,6 +46,7 @@ class CardioVisit extends Visits {
       getForm(event.target.value);
     });
   }
+  
 
   render() {
     const card = document.createElement("div");
